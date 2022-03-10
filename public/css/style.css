@@ -128,10 +128,11 @@
   cursor: pointer;
 }
 .popup-form-overlay .popup-form .buttons button:first-child {
-  background-color: #0984e3;
+  background-color: #d63031;
 }
 .popup-form-overlay .popup-form .buttons button:last-child {
-  background-color: #d63031;
+  background-color: white;
+  color: #1aad91;
 }
 /* Main Button For Adding Recipe*/
 #add-recipe {
