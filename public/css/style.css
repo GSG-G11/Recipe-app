@@ -146,6 +146,8 @@
   border: none;
   cursor: pointer;
   margin: 20px auto 30px;
+  opacity: 1;
+  transform: skewX(-25deg);
 }
 @media (max-width: 575px) {
   #add-recipe {
@@ -298,15 +300,5 @@ img {
   100% {
     opacity: 1;
     transform: translateX(0) scale(1);
-  }
-}
-@keyframes fadeInUpSm {
-  0% {
-    opacity: 0;
-    transform: translateY(-10vw) scale(0.7);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0) scale(1) skewX(-25deg);
   }
 }
