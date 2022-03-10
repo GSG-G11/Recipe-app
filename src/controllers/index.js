@@ -1,11 +1,8 @@
-/* eslint-disable linebreak-style */
 const express = require('express');
 const recipes = require('./recipes');
 const deleteRecipe = require('./deleteData');
 const getChefs = require('./chefs');
 const errors = require('./errors');
-
-// require('env2')('config.env');
 
 const router = express.Router();
 
